@@ -1,0 +1,69 @@
+@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@300;400;600&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    border: 0;
+}
+html {
+    background-image: linear-gradient(white,pink));
+}
+
+.principal {
+    display: grid;
+    grid-template-columns: 50% 50%;
+    width: 1080px;
+    height: 600px;
+    font-family: 'Josefin Sans', sans-serif;
+
+    /* position */
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+/* informações */
+
+.container_inf{
+    background-image: url('../images/bg-pattern-desktop.svg');
+    background-size: cover;
+    padding: 2em 3em;
+
+}
+
+.container_texto{
+    margin: 50px 0;
+}
+
+.titulo{
+    color: hsl(0, 36%, 70%);
+    font-weight: 300;
+    text-transform: uppercase;
+    font-size: 50px;
+}
+
+strong{
+    color: black;
+}
+
+/* E-mail */
+
+.container_email{
+    display: flex;
+}
+
+
+.imagem_pesquisa{
+    background-image: linear-gradient(to right, hsl(0, 80%, 86%), hsl(0, 74%, 74%));
+    padding: 5px 30px;
+}
+
+/* Imagem */
+.container_imagem{
+   
+}
+.imagem {
+    width: 540px;
+    height: 600px;
+}
