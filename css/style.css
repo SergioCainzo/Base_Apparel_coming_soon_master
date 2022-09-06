@@ -6,7 +6,7 @@
     border: 0;
 }
 html {
-    background-image: linear-gradient(white,pink));
+    background-image: linear-gradient(to left, white,pink);
 }
 
 .principal {
@@ -29,6 +29,7 @@ html {
     background-image: url('../images/bg-pattern-desktop.svg');
     background-size: cover;
     padding: 2em 3em;
+    width: auto;
 
 }
 
@@ -51,12 +52,20 @@ strong{
 
 .container_email{
     display: flex;
+    width: 100%;
+    border: 1px solid black;
+}
+
+.text_input{
+    padding: 1em;
+    width: 100%;
+    
 }
 
 
-.imagem_pesquisa{
+.imagem_email{
     background-image: linear-gradient(to right, hsl(0, 80%, 86%), hsl(0, 74%, 74%));
-    padding: 5px 30px;
+    padding: 10px 30px;
 }
 
 /* Imagem */
